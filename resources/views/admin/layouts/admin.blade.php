@@ -56,6 +56,8 @@
         <!-- JavaScript-->
         <script src="{{ asset('js/admin.js') }}"></script> 
         
+        @include('sweet::alert')
+        
         @yield('script')
 
     </body>
